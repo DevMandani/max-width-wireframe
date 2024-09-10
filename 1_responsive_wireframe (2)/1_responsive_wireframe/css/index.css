@@ -9,6 +9,11 @@
 }
 
 
+.overflow-hidden{
+    overflow: hidden;
+}
+
+
 /* --------container  start----------------- */
 
 .container{
@@ -18,13 +23,19 @@
 }
 
 .container-fluid{
-    margin:10px auto;
-    border:1px solid red;
+    width:100%;
+    margin:50px auto;
+    /* border:1px solid red; */
 }
 
 /* --------------- container end --------------- */
 
-
+/* --------- margin ------------------- */
+.m-30{
+    /* margin:30px; */
+    /* padding: 30px; */
+    line-height: 5;
+}
 
 /* --------------------- border classes start ---------------- */
 
@@ -76,7 +87,10 @@
     display: flex;
 }
 
-
+.justify-center{
+    display: flex;
+    justify-content: center;
+}
 
 
 /* ----------------- display flex classes end ----------------------- */
@@ -86,6 +100,10 @@
 /* --------------------- background color classes ------------- */
 .back-grey{
     background-color: grey;
+}
+
+.bg-aliceblue{
+    background-color: aliceblue;
 }
 /* --------------------- background color classes  end------------- */
 
@@ -105,6 +123,10 @@
 
 .radius{
     border-radius:10px;
+}
+
+.r-50{
+    border-radius: 40px;
 }
 
 /* --------------------- border radius classes end ------------ */
@@ -168,6 +190,11 @@
   
 }
 
+.gap{
+    display: flex;
+    column-gap: 30px;
+}
+
 /* ------ link tag css starts ----------  */
 a{
     text-decoration: none;
@@ -207,6 +234,14 @@ button:hover{
 .back-alice{
     background-color: aliceblue;
 }
+.bg-black{
+    background-color: black;
+}
+
+.bg-gray{
+    background-color: #161617;
+}
+
 
 /* ---------- back-ground color end -------- */
 
@@ -224,7 +259,25 @@ h2{
 .font-price{
     /* padding-left: 15%; */
     font-family: 500;
+
     color: gray;
+}
+.color-gray{
+    color:rgb(194, 194, 194);
+}
+.blog-font{
+    font-size: 20px;
+    font-weight: 500;
+    color:white;
+}
+.footer-fonts{
+    color:black;
+    font-size: 30px;
+
+}
+.f-white{
+    color:white;
+
 }
 
 button{
@@ -232,7 +285,7 @@ button{
 }
 
 .new-image{
-    width:50%;
+    /* width:100%; */
 }
 
 
@@ -242,4 +295,55 @@ button{
 }
 .p50{
     padding-left: 50px;
+}
+
+.new-black{
+    padding: 10px;
+}
+
+.small-slider{
+    padding: 10px;
+    height:100%;
+}
+
+
+.new-image1{
+    height:320px
+}
+
+
+
+ul{
+    list-style: none;
+}
+.fa-facebook{
+    font-size: 30px;
+    color:blue;
+}
+.fa-twitter{
+    font-size:30px;
+    color:lightblue;
+}
+.fa-linkedin-in{
+    font-size:30px;
+    color:blue;
+}
+.fa-instagram{
+    font-size:30px;
+    color:red;
+}
+li:hover{
+    color:rgb(196, 128, 4);
+    transform: translate(5%,0%);
+    transition: all 1s;
+    font-size:20px
+}
+
+.footer-fonts1{
+    color:gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 5;
+    font-size: 20px;
 }
