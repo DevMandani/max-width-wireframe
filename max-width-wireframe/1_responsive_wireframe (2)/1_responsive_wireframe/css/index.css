@@ -1,0 +1,418 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    padding: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.overflow-hidden{
+    overflow: hidden;
+}
+
+
+/* --------container  start----------------- */
+
+.container{
+    max-width:1320px;
+    /* border:1px solid red; */
+    margin: 100px auto;
+}
+
+.container-fluid{
+    width:100%;
+    margin:50px auto;
+    /* border:1px solid red; */
+}
+
+/* --------------- container end --------------- */
+
+/* --------- margin ------------------- */
+.m-30{
+    /* margin:30px; */
+    /* padding: 30px; */
+    line-height: 5;
+}
+
+/* --------------------- border classes start ---------------- */
+
+
+
+.b-red{
+    border:1px solid red;
+}
+.b-green{
+    border:1px solid green;
+
+}
+
+.b-blue{
+    border:1px solid blue;
+}
+.b-black{
+    border:1px solid black;
+}
+.b-orange{
+    border:1px solid orange;
+}
+
+/* ---------------------- border classes end ----------------- */
+
+
+
+/* ------------------ text center classes start --------------------- */
+
+.t-center{
+    text-align: center;
+}
+
+/* ---------------------- text center classes end ------------------ */
+
+
+
+
+
+/* ---------------- display flex classes start ----------------- */
+.row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.justify-center{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* ----------------- display flex classes end ----------------------- */
+
+
+
+/* --------------------- background color classes ------------- */
+.back-grey{
+    background-color: grey;
+}
+
+.bg-aliceblue{
+    background-color: aliceblue;
+}
+/* --------------------- background color classes  end------------- */
+
+
+/* ---------------- box shadow classes start --------- */
+.b-shadow{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+
+/* -------------------------box shadow classes end--------------- */
+
+
+
+/* ------------------ border radius classes -------------- */
+
+
+.radius{
+    border-radius:10px;
+}
+
+.r-50{
+    border-radius: 40px;
+}
+
+/* --------------------- border radius classes end ------------ */
+
+
+
+/* ------------- margin and padding classes start ------------ */
+
+.p{
+    padding: 10px;
+}
+
+
+.p-10{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/* ------------- margin and padding classes end ------------ */
+
+
+
+/* --------------- height classes starts -------------- */
+
+.h-50{
+    height:50px;
+}
+.h-100{
+    height:100px;
+}
+.h-200{
+    height:200px;
+}
+.h-300{
+    height:300px;
+}
+.h-400{
+    height:400px;
+}
+
+/* ------------------ height classes ends ---------------- */
+
+
+.main-nav{
+    position: fixed;
+   margin:0px;
+    z-index: 1;
+    background-color: white;
+    width:100%;
+}
+
+
+
+
+/* -------------- margin classes starts ------------------------- */
+.m{
+    margin:10px;
+}
+/* ------------------marign classes ends ----------------------------- */
+
+
+/* --------------- new display properties ------------ */
+.new-display{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+  
+}
+
+.gap{
+    display: flex;
+    column-gap: 30px;
+}
+
+/* ------ link tag css starts ----------  */
+a{
+    text-decoration: none;
+    color:black;
+}
+/* --------- link tag css end ------------- */
+
+
+
+/* --------- image class starts ----------------  */
+img{
+    height:100%;
+    width:100%;
+
+}
+/* ----------- image classes end ---------------- */
+.name-p{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.name-r{
+    color:gray;
+}
+
+/* -------- font css ends ---------- */
+button{
+    border-radius: 20px;
+    padding: 10px 35px;
+    background-color: yellow;
+}
+
+button:hover{
+    background-color: rgb(255, 255, 91);
+}
+.navbutton{
+    
+    border-radius: 25px;
+    padding: 5px 10px;
+    background-color: white;
+}
+/* ------- back-ground color ------------- */
+.back-alice{
+    background-color: aliceblue;
+}
+.bg-black{
+    background-color: black;
+}
+
+.bg-gray{
+    background-color: #161617;
+}
+
+
+/* ---------- back-ground color end -------- */
+
+h2{
+    font-weight: 500;
+}
+.new-button{
+    padding: 10px 35px;
+}
+
+.border{
+    text-decoration: underline;
+}
+
+.font-price{
+    /* padding-left: 15%; */
+    font-family: 500;
+
+    color: gray;
+}
+.color-gray{
+    color:rgb(194, 194, 194);
+}
+.blog-font{
+    font-size: 20px;
+    font-weight: 500;
+    color:white;
+}
+.footer-fonts{
+    color:black;
+    font-size: 30px;
+
+}
+.f-white{
+    color:white;
+
+}
+
+button{
+    padding-bottom: 2%;
+}
+
+.new-image{
+    /* width:100%; */
+}
+
+
+/* ---------- padding-left ------------) */
+.p-60{
+    padding-left: 60px;
+}
+.p50{
+    padding-left: 50px;
+}
+
+.new-black{
+    padding: 10px;
+}
+
+.small-slider{
+    padding: 10px;
+    height:100%;
+}
+
+
+.new-image1{
+    height:320px
+}
+
+
+
+ul{
+    list-style: none;
+}
+.fa-facebook{
+    font-size: 30px;
+    color:blue;
+}
+.fa-twitter{
+    font-size:30px;
+    color:lightblue;
+}
+.fa-linkedin-in{
+    font-size:30px;
+    color:blue;
+}
+.fa-instagram{
+    font-size:30px;
+    color:red;
+}
+li:hover{
+    color:rgb(196, 128, 4);
+    transform: translate(5%,0%);
+    transition: all 1s;
+    
+}
+
+.footer-fonts1{
+    color:gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 5;
+    font-size: 20px;
+}
+
+.dropdown{
+    position: relative;
+}
+
+
+.dropdown-menu{
+    position: absolute;
+    top:40px;
+    line-height: 3;
+    display: none;
+}
+.slick-next:before{
+    content: "➡️";
+    color:black;
+    display: block;
+}
+
+.slick-dots li button:before{
+   
+   
+    font-family: 'slick';
+    font-size: 56px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+}
+.good-thoughts{
+    z-index: -1;
+    color:white;
+}
+
+.logo-image{
+    width:50%;
+}
+.other-display{
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.fa-cart-shopping{
+    /* font-size: 25px; */
+}
+.pro-image:hover{
+    transform: scale(0.9);
+    transition: all 1s;
+}
