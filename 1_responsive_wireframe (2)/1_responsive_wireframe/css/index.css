@@ -8,7 +8,9 @@
     padding: 0px;
 }
 
-
+html{
+    scroll-behavior: smooth;
+}
 .overflow-hidden{
     overflow: hidden;
 }
@@ -170,6 +172,13 @@
 /* ------------------ height classes ends ---------------- */
 
 
+.main-nav{
+    position: fixed;
+   margin:0px;
+    z-index: 1;
+    background-color: white;
+    width:100%;
+}
 
 
 
@@ -229,6 +238,12 @@ button{
 
 button:hover{
     background-color: rgb(255, 255, 91);
+}
+.navbutton{
+    
+    border-radius: 25px;
+    padding: 5px 10px;
+    background-color: white;
 }
 /* ------- back-ground color ------------- */
 .back-alice{
@@ -336,7 +351,7 @@ li:hover{
     color:rgb(196, 128, 4);
     transform: translate(5%,0%);
     transition: all 1s;
-    font-size:20px
+    
 }
 
 .footer-fonts1{
@@ -346,4 +361,58 @@ li:hover{
     align-items: center;
     line-height: 5;
     font-size: 20px;
+}
+
+.dropdown{
+    position: relative;
+}
+
+
+.dropdown-menu{
+    position: absolute;
+    top:40px;
+    line-height: 3;
+    display: none;
+}
+.slick-next:before{
+    content: "➡️";
+    color:black;
+    display: block;
+}
+
+.slick-dots li button:before{
+   
+   
+    font-family: 'slick';
+    font-size: 56px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+}
+.good-thoughts{
+    z-index: -1;
+    color:white;
+}
+
+.logo-image{
+    width:50%;
+}
+.other-display{
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.fa-cart-shopping{
+    /* font-size: 25px; */
+}
+.pro-image:hover{
+    transform: scale(0.9);
+    transition: all 1s;
 }
